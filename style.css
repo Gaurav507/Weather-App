@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Roboto:wght@300;400&family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+
+.card{
+    border: solid 1px rgb(255, 255, 255);
+    padding: 2em;
+}
+.search{
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 15px 0; 
+}
+.search-bar{
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 18px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 80%;
+}
+.search-icon{
+    border: solid rgb(76, 74, 74);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    min-width: 35px;
+    width: 45px;
+    min-height: 35px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.weather-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    cursor: pointer;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.description{
+    text-transform: capitalize;
+}
